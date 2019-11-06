@@ -56,7 +56,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         GridView container = (GridView)this.findViewById(R.id.container);
         container.setAdapter(adapter);
 
-        Button add = this.findViewById(R.id.add);
+        Button add = this.findViewById(R.id.add_number);
         add.setOnClickListener(this);
         Button remove = this.findViewById(R.id.remove);
         remove.setOnClickListener(this);
@@ -71,7 +71,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
     @Override
     public void onClick(View v) {
 
-        if (v.getId() == R.id.add) {
+        if (v.getId() == R.id.add_number) {
 
             datos.add("1");
 
