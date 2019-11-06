@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">lab5_2_2019</string>
+    <string name="action_settings">Settings</string>
+    <string name="agregar">Agregar</string>
+    <string name="quitar">Quitar</string>
+    <string name="rodar">Rodar</string>
+</resources>
